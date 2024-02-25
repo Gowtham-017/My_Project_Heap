@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/Card.css';
+import PropTypes from 'prop-types';
 import { FaGithub, FaSearch } from 'react-icons/fa';
 function Card(props) {
     const handleGitHubClick = () => {
@@ -21,4 +22,11 @@ function Card(props) {
         </div>
     );
 }
+Card.propTypes = {
+    imgsrc: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
+    github: PropTypes.string.isRequired,
+    live: PropTypes.string.isRequired,
+};
 export default Card;

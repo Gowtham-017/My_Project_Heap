@@ -17,7 +17,7 @@ import newyear from '../assets/newyear.png';
 import mytodo from '../assets/mytodo.png';
 import pythonandexcel from '../assets/pythonandexcel.png';
 const Project = () => {
-    const [projectsData,setProjectsData] = useState([
+    const [projectsData] = useState([
         {id:1, imgsrc: portfolio, title: "Portfolio", description: "Designed a simple Portfolio website for me shocasing my profiles and works", github: "https://github.com/Gowtham-017/Portfolio/", live: "https://gowthamk29.netlify.app/", },
         {id:2, imgsrc: eventapp, title: "Event Manager", description: "A Full- Stack Event Manager application using Vite.js and SpringBoot. I have used Postgresql for managing data and implemented Jwt Security for authentication", github: "https://github.com/Gowtham-017/Advanced_App_Development/", live: "", },
         {id:3, imgsrc: newyear, title: "New-Year", description: "A New Year wishing page with animations" , github: "https://github.com/Gowtham-017/New_Year_2024", live: "",},
